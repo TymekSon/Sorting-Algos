@@ -36,6 +36,8 @@ DynamicArray<T> heapsort(const Heap<T>& heap) {
 
     for (int i = n - 1; i > 0; --i) {
         heapCopy.swap(0, i);
-        heapify(heapCopy, i, 0)
+        heapify(heapCopy, i, 0);
     }
+
+    return heapCopy;
 }
