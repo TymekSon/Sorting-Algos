@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ipch
+*.tlog
+*.obj
+*.pch
+Debug/
+Release/
+
+# Build system files
+*.exe
+*.dll
+*.pdb
