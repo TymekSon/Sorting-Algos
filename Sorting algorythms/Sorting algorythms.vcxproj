@@ -133,12 +133,6 @@
   <ItemGroup>
     <ClInclude Include="BucketSort.h" />
     <ClInclude Include="CountingSort.h" />
-    <ClInclude Include="HeapSort.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\BinaryHeap\BinaryHeap\BinaryHeap.vcxproj">
-      <Project>{a80d6843-6178-478b-9d72-06dce13a3600}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
